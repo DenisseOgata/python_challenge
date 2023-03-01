@@ -1,0 +1,21 @@
+Financial Analysis
+----------------------------
+Total Months 86
+Total 21475215
+Average Change $-8311.11
+Greatest Increase in Profits: 16-Aug ($1862002)
+Greatest Decrease in Profits: 14-Feb ($-1825558)
+
+
+Given the data finacial set, composed by "Date" and "Profit/Losses".
+We were asked to resolve the following questions: 
+
+1- The total number of months included in the dataset.
+    
+2- The net total amount of "Profit/Losses" over the entire period.
+
+3- The changes in "Profit/Losses" over the entire period, and then the average of those changes.
+
+4- The greatest increase in profits (date and amount) over the entire period.
+
+5- The greatest decrease in profits (date and amount) over the entire period.
