@@ -59,12 +59,12 @@ with open(file_to_load) as budget_data:
     print(f"Greatest Decrease in Profits: {gd[0]} (${gd[1]})")
     
     with open("Resources/analysis.txt","w") as file:
-        file.writre("Financial Analysis")
-        file.writre("----------------------------")
-        file.writre(f"Total Months ${total_months}")
-        file.writre(f"Total {net_total}")
-        file.writre(f"Average Change ${avrg_change:.2f}")
-        file.writre(f"Greatest Increase in Profits: {gi[0]} (${gi[1]})")
-        file.writre(f"Greatest Decrease in Profits: {gd[0]} (${gd[1]})")
+        file.write("Financial Analysis")
+        file.write("----------------------------")
+        file.write(f"Total Months ${total_months}")
+        file.write(f"Total {net_total}")
+        file.write(f"Average Change ${avrg_change:.2f}")
+        file.write(f"Greatest Increase in Profits: {gi[0]} (${gi[1]})")
+        file.write(f"Greatest Decrease in Profits: {gd[0]} (${gd[1]})")
         
 
